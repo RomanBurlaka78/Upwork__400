@@ -1,0 +1,75 @@
+.hero {
+    overflow: hidden;
+
+    &__inner {
+   
+        max-width: 1279px;
+        margin: 0 auto 0 138px;
+        display: flex;
+        position: relative;
+       
+    }
+    &__content {
+        flex: 0 0 614px;
+        margin-top: 120px;
+        
+    }
+    &__content-title {
+        font-weight: 800;
+        font-size: 62px;
+        line-height: 75px;
+        letter-spacing: -4%;
+        color: rgb(174,103,250);
+        color: linear-gradient(90deg, rgba(174,103,250,1) 100%, rgba(244,152,103,1) 100%);
+        
+    }
+    &__content-text {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        color: #81AFDD;
+        margin-top: 33px;
+    }
+
+    &__img {
+        // flex: 0 0 40%;
+    }
+    &__image {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    &__input {
+        width: 456px;
+        background-color:  #052D56;
+        color: #3D6184;
+        border: none;
+        padding: 24px 0 24px 32px;
+        
+      
+    }
+    &__form {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+    
+
+}
+.btn__hero {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        text-transform: capitalize;
+        color: white;
+}
+.nav__btns--hero {
+    width: 174px;
+    color: white;
+    background-color:rgba(255, 72, 32, 1);
+    border: none;
+    &:hover {
+        background-color: darken( rgba(255, 72, 32, 1), 20%);
+             
+    }
+}

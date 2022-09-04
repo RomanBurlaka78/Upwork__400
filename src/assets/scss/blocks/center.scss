@@ -1,0 +1,11 @@
+.center {
+    &__inner {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 228px 0 128px 0;
+        max-width: 671px;
+
+        gap: 46px;
+    }
+}
